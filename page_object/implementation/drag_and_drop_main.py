@@ -5,6 +5,7 @@ from page_object.schema.drag_and_drop_schema import DragAndDropSchema
 
 class DragAndDropMain(DragAndDropInterface, DragAndDropSchema, metaclass=ABCMeta):
 
-    def get_url(self, url):
-        self.driver.get(DragAndDropSchema.url)
+    def get_url(self):
+        self.driver.get(abc.url)
+
 

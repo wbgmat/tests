@@ -8,6 +8,6 @@ class DragAndDropInterface(object, metaclass=ABCMeta):
         pass
 
     @abstractmethod
-    def get_url(self, url):
+    def get_url(self):
         pass
 
