@@ -9,6 +9,7 @@ class BaseTestCase(unittest.TestCase):
         self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
         self.driver.maximize_window()
+        # self.driver.get("https://www.onet.pl/")
 
     def tearDown(self):
         # close the browser window

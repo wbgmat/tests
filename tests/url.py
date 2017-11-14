@@ -6,9 +6,11 @@ from page_object.implementation.url_main import UrlMain
 
 
 class Url(BaseTestCase):
+
     def test_url(self):
         obi = UrlMain(self.driver)
         obi.get_url()
+        obi.__mro__
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
