@@ -7,7 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.remote.webelement import WebElement
 
 
-class DragAndDropMain(DragAndDropInterface, DragAndDropSchema, ActionChains, metaclass=ABCMeta ):
+class DragAndDropMain(DragAndDropInterface, DragAndDropSchema, ActionChains, metaclass=ABCMeta):
 
     def __init__(self, driver):
         super(DragAndDropMain, self).__init__(driver)
