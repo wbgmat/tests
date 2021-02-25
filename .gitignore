@@ -8,3 +8,29 @@
 # Other
 __pycache__/
 *.log
+
+# python/ pycharm
+__pycache__
+*.pytest_cache/
+*.idea
+*.pyc
+
+# c files
+*.o
+*.so
+*.d
+
+# log files/ folders
+log
+
+# common library files
+*_abc
+private_unittest_config.py
+
+# pylint files
+message.json
+
+# projects other than main
+projects/*
+!projects/abino/
+/projects/abino/test_cases/tc_backplane/local_*
