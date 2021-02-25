@@ -4,6 +4,7 @@
 .idea/tests.iml
 .idea/modules.xml
 .idea/misc.xml
+.idea/*
 
 # Other
 __pycache__/
